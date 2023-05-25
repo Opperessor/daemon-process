@@ -4,8 +4,8 @@ import fcntl
 import daemon
 import file_operation
 
-PIDFILE = '/home/james/Videos/daemon_gitHUB/Daemon_process/files/daemon.pid'
-error_file = '/home/james/Videos/daemon_gitHUB/Daemon_process/files/error.txt'
+PIDFILE = '/files/daemon.pid'
+error_file = '/files/error.txt'
 
 def acquire_lock():
     try:
